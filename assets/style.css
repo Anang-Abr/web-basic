@@ -1,0 +1,58 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "inter", monospace;
+}
+
+img {
+	width: 400px;
+	height: 400px;
+	border-radius: 20px;
+}
+
+button {
+	background-color: #fac53e;
+	padding: 20px 30px;
+	color: white;
+	font-size: 24px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+li {
+	margin-left: 20px;
+}
+
+.profil_description > * {
+	margin-bottom: 30px;
+}
+
+.card {
+	width: 1000px;
+	padding: 30px;
+	margin: 100px auto;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+	border-radius: 20px;
+}
+
+.profil {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+	margin-top: 100px;
+}
+
+.info {
+	width: 800px;
+	margin: 100px auto;
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.info > p {
+	margin-bottom: 20px;
+}
